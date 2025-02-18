@@ -8,7 +8,7 @@
     </div>
   </template>
   
-  <script setup>
+  <script setup lang="ts">
   import { useLocalStorage } from '@vueuse/core';
   
   const count = useLocalStorage('vueuse-counter', 0);
