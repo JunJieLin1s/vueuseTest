@@ -6,7 +6,7 @@
     </div>
   </template>
   
-  <script setup>
+  <script setup lang="ts">
   import { useMouse } from '@vueuse/core';
   
   const { x, y } = useMouse();
