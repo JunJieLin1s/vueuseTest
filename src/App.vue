@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import MouseTracker from './components/MouseTracker.vue';
 import LocalStorageCounter from './components/Counter.vue';
 
